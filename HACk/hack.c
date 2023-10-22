@@ -53,7 +53,17 @@ int main(){
     for(int year = 1 ; year <= yearUntileRetirment; year++){
 
        for (int month= 1 ; month <= 12 ; month ++){
-        
+
+        //declared variable and assigning values
+
+        double interstEarned= balance * montlyRateOfReturn ; /*multiplication of balance and motly 
+                                                             return is the value of interst*/
+
+        double contibution= montlyContribution;//montly contribution is assigned to contribution
+
+        balance + =interstEarned + contibution; //balance is added with interst earned and contibution rate
+
+
        }
     }
 }
