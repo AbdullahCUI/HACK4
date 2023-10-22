@@ -39,4 +39,12 @@ int main(){
     printf("Please Enter Year of Retirment =>");
 
     scanf("%i", & yearUntileRetirment);
+
+    double balance=initialBalance;
+
+    double montlyRateOfReturn=annualRateOfReturn/12;
+
+    printf("Year | Month | Balance | Interst | Contribution |\n");
+
+    printf(".................................................\n");
 }
