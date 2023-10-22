@@ -47,4 +47,13 @@ int main(){
     printf("Year | Month | Balance | Interst | Contribution |\n");
 
     printf(".................................................\n");
+
+    //use for loops
+
+    for(int year = 1 ; year <= yearUntileRetirment; year++){
+
+       for (int month= 1 ; month <= 12 ; month ++){
+        
+       }
+    }
 }
