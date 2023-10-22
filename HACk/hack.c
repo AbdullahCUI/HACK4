@@ -63,7 +63,10 @@ int main(){
 
         balance + =interstEarned + contibution; //balance is added with interst earned and contibution rate
 
+       balance = balance * (1.0 + annualRateOfReturn) / (1.0 +  annualInflamation);
 
+       printf("%4d | %5d  | $%.2f | $%.2f | $%.2f \n", year,month,balance,interstEarned,contibution);
        }
     }
+    return 0;
 }
